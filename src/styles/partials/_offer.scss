@@ -1,0 +1,124 @@
+.offer {
+  // background-image: url(../images/offer-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  .offer-img {
+    display: none;
+  }
+  .offer-img-mobile {
+    display: block;
+    visibility: hidden;
+    width:100%;
+    height: auto;
+  }
+  @media only screen and (min-width: $screen-sm) {
+    // background-image: url(../images/offer.jpg);
+
+    .offer-img {
+      display: block;
+      visibility: hidden;
+      width:100%;
+      height: auto;
+    }
+    .offer-img-mobile {
+      display: none;
+    }
+  }
+
+
+}
+
+/*.sweetener {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.priceDollars {
+    color: #d9272d;
+    font-family: 'Avenir Light', Arial;
+    font-size: 200px;
+    line-height: 200px;
+    letter-spacing: -4px;
+}
+
+.abovePrice {
+    padding: 8px 0 12px 0;
+    color: #d9272d;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-family: 'nexa heavy';
+}
+
+.sweetener-terms {
+    font-size: 11px;
+    color: #58595b;
+}
+
+.sweetener-below strong {
+    font-family: 'nexa heavy';
+    color: #d9272d;
+}
+
+.sweetener .sweetener-below {
+    margin: 5px 0;
+    font-family: 'nexa heavy';
+    font-size: 28px;
+    line-height: 1em;
+    color: #58595b;
+}
+
+.sweetener .sweetener-above {
+    font-size: 30px;
+    font-family: 'nexa bold';
+    text-align: center;
+    color: #58595b;
+}
+
+.detailPriceContainer .detailPrice {
+    color: #d9272d;
+    font-family: 'Avenir Light', Arial;
+    font-size: 200px;
+    line-height: 200px;
+    letter-spacing: -4px;
+}
+
+.priceTerms {
+    color: #58595b;
+    top: -20px;
+    position: relative;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.plus {
+    font-size: 100px;
+    font-family: 'nexa bold';
+    color: #58595b;
+    padding-top: 60px;
+    font-weight: 700;
+}
+
+.plus-contain {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.detailPrice {
+    color: #d9272d;
+    font-family: 'Avenir Light', Arial;
+    font-size: 200px;
+    line-height: 200px;
+    letter-spacing: -4px;
+}
+
+.terms p {
+    font-size: 12px;
+    color: #999999;
+}*/

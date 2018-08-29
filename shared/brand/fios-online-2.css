@@ -1,0 +1,495 @@
+body.fios-home {
+    color: #58595b;
+    font-size: 20px;
+    color: #444;
+}
+
+body.fios-home h1, body.fios-home h2, body.fios-home h3, body.fios-home h4 {
+  font-family: "nexa book","avinir next","avinir",sans-serif;
+}
+
+body.fios-home p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.navbar-default {
+    background-color: #e1e3e4;
+    border: none;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand {
+    padding-top: 7px
+}
+
+.navbar-brand img {
+    width: 170px;
+}
+
+.order-link {
+    background-color: #d9272d;
+    display: block;
+    padding: 16px;
+    color: #fff !important;
+    margin: 0;
+}
+
+.order-link:hover {
+    text-decoration: none;
+    background-color: #ca242a;
+}
+
+.brand {
+    padding: 50px;
+}
+
+.flex-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row {
+    width: auto;
+}
+
+
+
+.flex-item {
+    padding: 0px;
+    width: auto;
+    text-align: center;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.subtitle {
+    color: #727274;
+    font-size: 29px;
+    text-transform: uppercase;
+    font-family: "nexa heavy italic"
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.post {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.l-bg {
+    background-color: #e8e8e8;
+}
+
+.d-bg {
+  background-color: #565854;
+  color: #FFF;
+}
+
+
+
+.red-bar {
+    background-color: #d9272d;
+    padding: 20px;
+}
+
+.post h3 {
+    font-size: 39px;
+}
+
+.post p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.bg-section {
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  position: relative;
+  padding: 70px 0;
+  min-height: 500px;
+}
+
+.light {
+  background-image: url(../images/light-bg.jpg);
+}
+
+.fiber {
+  background-image: url(../images/fiber-bg.jpg);
+}
+
+.upload {
+  background-image: url(../images/upload-bg.jpg);
+}
+
+.future {
+  background-image: url(../images/future-bg.jpg);
+}
+
+.netflix {
+  background-image: url(../images/netflix-bg.jpg);
+}
+
+.wireless {
+  background-image: url(../images/wireless-bg.jpg);
+}
+
+.theater {
+  background-image: url(../images/theater-bg.jpg);
+  background-size: contain;
+}
+
+.netflix-old {
+/*    background-image: url(../images/tv_page_netflix_bg_7_21_17.jpg);*/
+    background-color: #565854;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% center;
+    display: block;
+    min-height: 200px;
+    padding: 50px 0;
+    color: #fff;
+    position: relative;
+}
+
+.netflix-old:before, .dvr:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0, .6);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: block;
+    height: 100%;
+    z-index: 0;
+}
+
+.speeds:before, .wireless:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(256,256,256, .8);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: block;
+    height: 100%;
+    z-index: 0;
+}
+
+.dvr {
+    background-image: url(../images/whole-home.jpg);
+    background-color: #565854;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% center;
+    display: block;
+    min-height: 200px;
+    padding: 80px 0;
+    color: #fff;
+    position: relative;
+}
+
+/*.wireless {
+    background-image: url(../images/wireless.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    display: block;
+    padding: 80px 0;
+    position: relative;
+}*/
+
+.offer {
+    margin-top: 100px;
+}
+
+.col-price {
+    -ms-flex: 0 1 45%;
+    flex: 0 1 45%;
+    text-align: center;
+}
+
+.sweetener {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.priceDollars {
+    color: #d9272d;
+    font-family: 'Avenir Light', Arial;
+    font-size: 200px;
+    line-height: 200px;
+    letter-spacing: -4px;
+}
+
+.abovePrice {
+    padding: 8px 0 12px 0;
+    color: #d9272d;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-family: 'nexa heavy';
+}
+
+.sweetener-terms {
+    font-size: 11px;
+    color: #58595b;
+}
+
+.sweetener-below strong {
+    font-family: 'nexa heavy';
+    color: #d9272d;
+}
+
+.sweetener .sweetener-below {
+    margin: 5px 0;
+    font-family: 'nexa heavy';
+    font-size: 28px;
+    line-height: 1em;
+    color: #58595b;
+}
+
+.sweetener .sweetener-above {
+    font-size: 30px;
+    font-family: 'nexa bold';
+    text-align: center;
+    color: #58595b;
+}
+
+.detailPriceContainer .detailPrice {
+    color: #d9272d;
+    font-family: 'Avenir Light', Arial;
+    font-size: 200px;
+    line-height: 200px;
+    letter-spacing: -4px;
+}
+
+.priceTerms {
+    color: #58595b;
+    top: -20px;
+    position: relative;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.plus {
+    font-size: 100px;
+    font-family: 'nexa bold';
+    color: #58595b;
+    padding-top: 60px;
+    font-weight: 700;
+}
+
+.plus-contain {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.detailPrice {
+    color: #d9272d;
+    font-family: 'Avenir Light', Arial;
+    font-size: 200px;
+    line-height: 200px;
+    letter-spacing: -4px;
+}
+
+.terms p {
+    font-size: 12px;
+    color: #999999;
+}
+
+.copyright {
+    background-color: #d9272d;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 70px;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+}
+
+.copyright p,
+.copyright a {
+    color: #fff;
+    text-align: center;
+}
+#footer_links .text-right {
+    text-align: center;
+}
+
+.hero-banner-wrapper {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    background-image: url(../images/hero-banner-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+}
+
+.hero-banner-wrapper > .title-banner {
+    display: block;
+    margin: auto;
+}
+
+.hero-banner-wrapper > img {
+    display: none;
+}
+
+.call-bar {
+  display: none;
+  background-color: #4f5052;
+  font-family: "nexa heavy","avinir next","avinir",arial,helvetica,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1em;
+  /*position: fixed;*/
+  min-width: 100% !important;
+  z-index: 1000;
+  bottom: 0px;
+}
+
+.fx {
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.fx-copy {
+  flex: 0 1 35%;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fx-phone {
+  ms-flex: 0 0 390px;
+    flex: 0 0 390px;
+    white-space: nowrap;
+  font-size: 30px;
+}
+
+.fx-phone a {
+  color: #fff;
+  font-family: "nexa heavy";
+}
+
+
+@media only screen and (min-width: 480px) {
+.hero-banner-wrapper {
+    background-image: url(../images/hero-banner-tablet.jpg);
+}
+}
+
+
+@media only screen and (min-width: 768px) {
+    .hero-banner-wrapper {
+        background-image: url(../images/hero-banner-new.jpg);*/
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: cover;
+        position: relative;
+        padding: 0;
+
+    }
+    .hero-banner-wrapper > img {
+        display: block;
+        visibility: hidden;
+    }
+    .hero-banner-wrapper > .title-banner {
+        display: none;
+    }
+
+    .flex-item {
+        width: 460px;
+    }
+
+    .speeds {
+        min-height: 400px;
+        background-size: contain;
+    }
+
+    .netflix-old {
+        min-height: 200px;
+        padding: 200px 0;
+    }
+
+    .post {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .netflix-old:before, .dvr:before, .wireless:before, .speeds:before {
+        display:none;
+    }
+
+    #footer_links .text-right {
+        text-align: right;
+    }
+
+    .call-bar {
+      display: block;
+    }
+}

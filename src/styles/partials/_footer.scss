@@ -1,0 +1,22 @@
+.copyright {
+    background-color: #d9272d;
+    color: #fff;
+    padding: 50px 0;
+    /*margin-top: 70px;*/
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    p, a {
+      color: #fff;
+      text-align: center;
+    }
+}
+
+
+#footer_links .text-right {
+    text-align: center;
+    @media only screen and (min-width: 768px) {
+      text-align: right;
+    }
+}

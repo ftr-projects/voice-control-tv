@@ -1,0 +1,112 @@
+.hero-component {
+
+  .wrapper {
+    background-image: url(../images/hero-demo.jpg);
+    background-color: $black;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    margin:0;
+
+    &:after {
+      bottom: 0;
+      background-color: rgba($black, .6);
+      content: '';
+      left: 0;
+      right:0;
+      position: absolute;
+      top: 0;
+      z-index: 1;
+
+      @media only screen and (min-width: 768px) {
+        background-color: transparent;
+      }
+    }
+
+    &.dark {
+      .content {
+        color: $black;
+      }
+
+      &:after {
+        background-color: rgba($white, .6);
+
+        @media only screen and (min-width: 768) {
+          background-color: rgba($white, .4);
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-color: transparent;
+        }
+      }
+    }
+
+  }
+
+  .content {
+    color: $white;
+    padding: 50px 10px;
+    position: relative;
+    right: initial;
+    text-align: center;
+    top: initial;
+    width: 100%;
+    z-index: 2;
+
+    @media only screen and (min-width: 768px) {
+      padding: 0 40px;
+      position: absolute;
+      right: 30px;
+      text-align: right;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 70%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+
+      width: 60%;
+    }
+  }
+
+  h1 {
+    font-family: "nexa xbold";
+    font-size: 38px;
+    margin: 0;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 47px;
+    }
+  }
+
+  h2 {
+    font-family: "nexa xbold";
+    font-size: 24px;
+    color: $red;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 28px;
+      margin-top: 10px;
+    }
+  }
+
+  h3 {
+    font-family: "nexa xbold";
+    font-size: 22px;
+    @media only screen and (min-width: 768px) {
+      font-size: 23px;
+      margin-top: 10px;
+    }
+  }
+
+  .placeholder {
+    display: none;
+
+    @media only screen and (min-width: 768px) {
+      display: block;
+      height: auto;
+      visibility: hidden;
+      width: 100%;
+    }
+  }
+}

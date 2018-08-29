@@ -1,0 +1,17 @@
+.fios-home {
+  color: $gray;
+  font-size: $font-size;
+  h1, h2, h3, h4 {
+    font-family: $title-family;
+    margin-top: 0;
+  }
+  h3 {
+    font-size: $font-size-title;
+    line-height: 1;
+
+  }
+  p {
+    font-size: $font-size;
+    line-height: 1.5;
+  }
+}

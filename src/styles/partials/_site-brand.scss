@@ -1,0 +1,20 @@
+.brand {
+    padding: 50px;
+}
+
+@media only screen and (max-width: $screen-sm) {
+    #page-content {
+      margin: 0;
+
+    }
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .order-link {
+      margin: 0 -15px;
+      text-align: center;
+    }
+}

@@ -1,0 +1,397 @@
+@font-face {
+  font-family: 'FrontierCom';
+  src:  url('FrontierCom.eot?6p7x4l');
+  src:  url('FrontierCom.eot?6p7x4l#iefix') format('embedded-opentype'),
+    url('FrontierCom.ttf?6p7x4l') format('truetype'),
+    url('FrontierCom.woff?6p7x4l') format('woff'),
+    url('FrontierCom.svg?6p7x4l#FrontierCom') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fci-"], [class*=" fci-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'FrontierCom' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fci-social-facebook:before {
+  content: "\e908";
+}
+.fci-social-googleplus:before {
+  content: "\e909";
+}
+.fci-social-instagram:before {
+  content: "\e90a";
+}
+.fci-social-linkedin:before {
+  content: "\e90b";
+}
+.fci-social-pinterest:before {
+  content: "\e90c";
+}
+.fci-social-twitter:before {
+  content: "\e90d";
+}
+.fci-social-vimeo:before {
+  content: "\e90e";
+}
+.fci-social-youtube:before {
+  content: "\e90f";
+}
+.fci-clock-arrow:before {
+  content: "\e906";
+}
+.fci-exclamation-circle:before {
+  content: "\e907";
+}
+.fci-commenting:before {
+  content: "\e904";
+}
+.fci-comment:before {
+  content: "\e905";
+}
+.fci-call-back:before {
+  content: "\e900";
+}
+.fci-chat-bubble:before {
+  content: "\e901";
+}
+.fci-minimize:before {
+  content: "\e902";
+}
+.fci-minimize-large:before {
+  content: "\e903";
+}
+
+
+/* Social Icons 2.0 LESS Document */
+/***
+  Frontier Brand Colors - Variables |
+  Taken from ftr36626_10543_01_Brand_Standards-rdcd.pdf | Updated Oct 14 2016
+***/
+/* Primary Palette */
+/* Residential Secondary Palette */
+/* Business Edge Secondary Palette */
+/* Color Shades - Darken & Lightens */
+/* Brand Color Classes */
+.ftr-red {
+  color: #d9272d;
+}
+.ftr-gray {
+  color: #58595b;
+}
+.res-navy {
+  color: #3e6688;
+}
+.res-aqua1 {
+  color: #3bc1cd;
+}
+.res-aqua2 {
+  color: #75cede;
+}
+.res-marigold {
+  color: #fcc549;
+}
+.biz-deep-red {
+  color: #ab1e2c;
+}
+.biz-navy {
+  color: #0c4269;
+}
+.biz-blue {
+  color: #0091b3;
+}
+.biz-light-blue {
+  color: #65bcd0;
+}
+.biz-light-orange {
+  color: #f9a21a;
+}
+/*** Frontier Brand Fonts - Variables ***/
+/*** Universal Class Variables ***/
+/* FONT */
+.font-normal {
+  font-weight: normal;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+/* POSITION */
+.absolute {
+  position: absolute;
+}
+.absoluteI {
+  position: absolute !important;
+}
+.relative {
+  position: relative;
+}
+.relativeI {
+  position: relative !important;
+}
+.fixed {
+  position: fixed;
+}
+.fixedI {
+  position: fixed !important;
+}
+.static {
+  position: static;
+}
+.staticI {
+  position: static !important;
+}
+/* DISPLAY */
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.inline {
+  display: inline;
+}
+.flex {
+  display: flex;
+}
+.flexbox {
+  display: flexbox;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.inline-flexbox {
+  display: inline-flexbox;
+}
+.noDisplay {
+  display: none;
+}
+.table {
+  display: table;
+}
+.table-row {
+  display: table-row;
+}
+.table-cell {
+  display: table-cell;
+}
+.vhidden {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}
+/* OVERFLOW */
+.overVisible {
+  overflow: visible;
+}
+.overVisibleX {
+  overflow-x: visible;
+}
+.overVisibleY {
+  overflow-y: visible;
+}
+.overHide {
+  overflow: hidden;
+}
+.overHideX {
+  overflow-x: hidden;
+}
+.overHideY {
+  overflow-y: hidden;
+}
+.overAuto {
+  overflow: auto;
+}
+.overAutoX {
+  overflow-x: auto;
+}
+.overAutoY {
+  overflow-y: auto;
+}
+.inhOverflow {
+  overflow: inherit;
+}
+.initOverflow {
+  overflow: initial;
+}
+/* ALIGN */
+.txt-center {
+  text-align: center;
+}
+.txt-left {
+  text-align: left;
+}
+.txt-right {
+  text-align: right;
+}
+/* FLOATS */
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.noFloat {
+  float: none;
+}
+.clearB {
+  clear: both;
+}
+.clearL {
+  clear: left;
+}
+.clearR {
+  clear: right;
+}
+/* MISC */
+.default {
+  cursor: default;
+}
+.pointer {
+  cursor: pointer;
+}
+.noDecor {
+  text-decoration: none;
+}
+.underline {
+  text-decoration: underline;
+}
+.top-align {
+  vertical-align: top;
+}
+.middle-align {
+  vertical-align: middle;
+}
+.bottom-align {
+  vertical-align: bottom;
+}
+.baseline {
+  vertical-align: baseline;
+}
+.sm-links {
+  border-bottom: 1px solid #cccccc;
+}
+.sm-links ul.social-icons_2-0 {
+  /*padding-top: 18px;*/
+}
+.sm-links ul.social-icons_2-0 li {
+  margin-right: -4px;
+  display: inline-block;
+}
+.sm-links ul.social-icons_2-0 li:last-of-type {
+  margin-right: 0px;
+}
+.sm-links ul.social-icons_2-0 li .smi {
+  display: block;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  transition: all 0.4s ease-out;
+  background-color: #e6e7e8;
+  padding-top: 7.5px;
+}
+.sm-links ul.social-icons_2-0 li .smi i {
+  font-size: 15.5px;
+  color: #ffffff;
+}
+.sm-links ul.social-icons_2-0 li .smi.smi-twitter {
+  background-color: #2ca6df;
+  padding-top: 8.5px;
+}
+.sm-links ul.social-icons_2-0 li .smi.smi-facebook {
+  background-color: #3b5999;
+  padding-top: 8.5px;
+}
+.sm-links ul.social-icons_2-0 li .smi.smi-linkedin {
+  background-color: #067cb6;
+}
+.sm-links ul.social-icons_2-0 li .smi.smi-youtube {
+  background-color: #b31217;
+  padding-top: 6.5px;
+}
+.sm-links ul.social-icons_2-0 li .smi.smi-youtube i {
+  font-size: 18.5px;
+}
+.sm-links ul.social-icons_2-0 li .smi.smi-googleplus {
+  background-color: #dd4b38;
+  padding-top: 6.5px;
+}
+.sm-links ul.social-icons_2-0 li .smi.smi-googleplus i {
+  font-size: 18px;
+  margin-left: 1px;
+}
+.sm-links ul.social-icons_2-0 li .smi:hover {
+  text-decoration: none;
+}
+/* /social-links */
+.sidebar_list .sm-links ul.social-icons_2-0 {
+  margin-bottom: 18px;
+}
+.social-icons-ftr {
+  /*padding-top: 18px;*/
+}
+.social-icons-ftr .smi {
+  display: block;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e6e7e8;
+  padding-top: 7.5px;
+  margin-left: 10px;
+}
+.social-icons-ftr .smi i {
+  font-size: 15.5px;
+  color: #ffffff;
+}
+.social-icons-ftr .smi.smi-twitter {
+  background-color: #2ca6df;
+  padding-top: 8.5px;
+}
+.social-icons-ftr .smi.smi-facebook {
+  background-color: #3b5999;
+  padding-top: 8.5px;
+}
+.social-icons-ftr .smi.smi-linkedin {
+  background-color: #067cb6;
+}
+.social-icons-ftr .smi.smi-youtube {
+  background-color: #b31217;
+  padding-top: 6.5px;
+}
+.social-icons-ftr .smi.smi-youtube i {
+  font-size: 18.5px;
+}
+.social-icons-ftr .smi.smi-googleplus {
+  background-color: #dd4b38;
+  padding-top: 6.5px;
+}
+.social-icons-ftr .smi.smi-googleplus i {
+  font-size: 18px;
+  margin-left: 1px;
+}

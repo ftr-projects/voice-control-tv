@@ -1,0 +1,26 @@
+$number-map: (
+  10: 10,
+  20: 20,
+  30: 30,
+  50: 50,
+  100: 100
+);
+
+@each $number-name, $number-value in $number-map {
+  .mt-#{$number-name} { margin-top: #{$number-value}px; }
+}
+
+@each $number-name, $number-value in $number-map {
+  .mb-#{$number-name} { margin-bottom: #{$number-value}px; }
+}
+
+@each $number-name, $number-value in $number-map {
+  .mvertical-#{$number-name} {
+    margin-bottom: #{$number-value}px;
+    margin-top: #{$number-value}px;
+  }
+}
+
+.m-auto {
+  margin: auto;
+}

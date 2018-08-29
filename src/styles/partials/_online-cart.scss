@@ -1,0 +1,78 @@
+#pageContainer .cta-cart-meta {
+  display: none;
+}
+
+#pageContainer.show-cart .cta-cart-meta {
+  display: inline-block;
+}
+
+.cta-bar {
+	background-color: #d1d3d4;
+	height: auto;
+	text-align: center;
+	align-items:center;
+	width: 100%;
+	max-width:100%;
+	margin: 0 auto;
+	font-size:22px;
+	font-family:'nexa xbold';
+
+  @media only screen and (min-width: $screen-lg - 50px) {
+    text-align: left;
+    height:90px;
+  }
+
+  .cta-bar-flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+      height: auto;
+      @media only screen and (min-width: $screen-lg - 50px) {
+        height: 100px;
+        flex-direction: row;
+      }
+  }
+
+  .itm {
+    margin: 10px 0;
+  }
+
+  .cta-text {
+    white-space: normal;
+  	display: block;
+    font-size:18px;
+  	margin-right: 0;
+    @media only screen and (min-width: $screen-lg - 50px) {
+      white-space: nowrap;
+      margin-right: 80px;
+      flex: 0 1 100%;
+      display: block;
+    }
+  }
+
+  .cta-phone {
+    white-space: normal;
+      @media only screen and (min-width: $screen-lg - 50px) {
+        flex: 0 0 360px;
+        white-space: nowrap;
+      }
+  }
+
+  .cta-shop {
+    white-space: normal;
+    @media only screen and (min-width: $screen-lg - 50px) {
+      flex: 0 0 350px;
+      white-space: nowrap;
+    }
+  }
+
+  a {
+    color: #444;
+  }
+
+}
