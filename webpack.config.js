@@ -15,6 +15,7 @@ var extractCssPlugin = new ExtractTextPlugin({
 });
 
 module.exports = {
+    devtool: "source-map",
     entry: './src/js/app.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -22,42 +23,50 @@ module.exports = {
         // publicPath: '/dist'
     },
     module: {
-        rules: [{
-            test: /\.js$/,
-            use: [{
-                loader: 'babel-loader',
-                options: {
-                    presets: ['es2015']
-                }
-            }]
-        }, { // regular css files
-          test: /\.css$/,
-          loader: extractCssPlugin.extract({
-            loader: 'css-loader?importLoaders=1',
-          }),
-        }, {
-            test: /\.scss$/,
-            use: extractScssPlugin.extract({
-                use: ['css-loader', 'sass-loader']
-            })
-        }, {
-            test: /\.html$/,
-            use: ['html-loader?interpolate']
-        }, {
-            test: /\.(jpg|png)$/,
-            use: [{
-                loader: 'file-loader',
-                options: {
-                    name: '[name].[ext]',
-                    outputPath: 'img/',
-                    publicPath: 'img/'
-                }
-            }]
-        },
-        {
-                     test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-                     use: `url-loader?limit=10000&mimetype=image/svg+xml&${fileAsset}`
-                 }]
+      rules: [{
+        test: /\.js$/,
+        use: [{
+          loader: 'babel-loader',
+          options: {
+            presets: ['es2015']
+          }
+        }]
+      }, {
+        test: /\.css$/,
+        loader: extractCssPlugin.extract({
+          loader: 'css-loader?importLoaders=1'
+        }),
+      }, {
+        test: /\.scss$/,
+        use: extractScssPlugin.extract({
+          use: [
+            {
+              loader: 'css-loader',
+              options: { sourceMap: true }
+            }, {
+              loader: 'sass-loader',
+              options: { sourceMap: true }
+            }
+          ]
+        })
+      }, {
+        test: /\.html$/,
+        use: ['html-loader?interpolate']
+      }, {
+        test: /\.(jpg|png)$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'img/',
+            publicPath: 'img/'
+          }
+        }]
+      },
+      {
+        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+        use: `url-loader?limit=10000&mimetype=image/svg+xml&${fileAsset}`
+      }]
     },
     plugins: [
         extractCssPlugin,
