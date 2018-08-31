@@ -1,0 +1,167 @@
+.hero-component {
+  .wrapper {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    padding: 100px 0;
+
+    &.aqua {
+      background-color: $aqua;
+      color: $white;
+    }
+
+    &.red {
+      background-color: $red-new;
+      color: $white;
+    }
+  }
+
+  h1 {
+    color: $navy;
+    font-family: "nexa black";
+    font-size: 30px;
+    margin: 0;
+    padding-left: 40px;
+    text-align: center;
+    text-indent:-40px;
+
+    @media only screen and (min-width: $screen-sm) {
+      font-size: 44px;
+      text-align: left;
+    }
+
+    @media only screen and (min-width: $screen-lg) {
+      font-size: 50px;
+    }
+
+  }
+
+  h3 {
+    font-family: "nexa xbold";
+    font-size: 32px;
+    padding-left: 60px;
+    text-indent: -60px;
+  }
+
+}
+
+.exclamation {
+  h1, h2, h3, h4, h5, h6, img, p, {
+    position: relative;
+    margin-left: 60px;
+  }
+  &:before {
+    content: "!";
+    font-weight: 700;
+    color: #fff;
+    font-size: 350px;
+    left: 0;
+    position: absolute;
+    top: -290px;
+    display: block;
+    z-index: 0;
+  }
+}
+
+
+
+// .price-offer-title-sweetener {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-start;
+//   // align-items: center;
+//   text-align: center;
+//   margin: 0 auto;
+//   color: #fff;
+//   @media (min-width:  $screen-sm) {
+//     text-align: left;
+//   }
+//   @media (min-width: 768px) {
+//     align-items: left;
+//     justify-content: flex-start;
+//   }
+//
+//   .price {
+//       font-family: 'avenir heavy';
+//       font-size: 90px;
+//       letter-spacing: -4px;
+//       line-height: 1;
+//       position: relative;
+//       color: $navy;
+//       z-index: 2;
+//       font-weight: 700;
+//       left: 0;
+//
+//       &:after {
+//         content: "!";
+//         font-weight: 700;
+//         color: #fff;
+//         font-size: 450px;
+//         position: absolute;
+//         z-index: -1;
+//         top: -275px;
+//         left: -40px;
+//         z-index:-200;
+//         display: none;
+//       }
+//
+//       @media only screen and (min-width: $screen-sm) {
+//         font-size: 70px;
+//         left: 90px;
+//         &:after {
+//           top: -60px;
+//           font-size: 150px;
+//           display: block;
+//         }
+//       }
+//
+//       @media (min-width: 768px) {
+//          font-size: 140px;
+//          &:after {
+//           font-size: 200px
+//         }
+//       }
+//   }
+//
+// }
+
+// .price-terms-hero {
+//   position: relative;
+//   font-size: 12px;
+//   line-height: 1.2;
+//   text-align: center;
+//   max-width: 365px;
+//   margin: 0 auto 20px;
+//
+//   @media (min-width: 768px) {
+//     margin-left: 20px;
+//     text-align: left;
+//     top: -5px;
+//     margin-bottom: 7px;
+//   }
+//
+// }
+//
+// .price-title {
+//     font-family: 'nexa heavy';
+//     text-align: center;
+//      margin: -10px 0 0 16px;
+//     font-size: 46px;
+//     line-height: 1.1;
+//     color: $red-new;
+//     @media only screen and (min-width: $screen-sm) {
+//       font-size: 68px;
+//       text-align: left;
+//     }
+// }
+
+.tab-hero {
+  margin-left: 0;
+  @media only screen and (min-width: $screen-sm) {
+    margin-left: 40px;
+  }
+  @media only screen and (min-width: $screen-md) {
+    margin-left: 90px;
+  }
+
+}

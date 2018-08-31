@@ -96,18 +96,18 @@
     font-style: normal;
 }
 
-/* Nexa XBold*/
-/*@font-face {
-    font-family: 'nexa xbold';
-    src: url('nexa/nexaxbold-webfont.eot');
-    src: url('nexa/nexaxbold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('nexa/nexaxbold-webfont.woff2') format('woff2'),
-         url('nexa/nexaxbold-webfont.woff') format('woff'),
-         url('nexa/nexaxbold-webfont.ttf') format('truetype'),
-         url('nexa/nexaxbold-webfont.svg#nexabold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}*/
+  /* Nexa XBold*/
+  @font-face {
+      font-family: 'nexa xbold';
+      src: url('nexa/nexaxbold-webfont.eot');
+      src: url('nexa/nexaxbold-webfont.eot?#iefix') format('embedded-opentype'),
+           url('nexa/nexaxbold-webfont.woff2') format('woff2'),
+           url('nexa/nexaxbold-webfont.woff') format('woff'),
+           url('nexa/nexaxbold-webfont.ttf') format('truetype'),
+           url('nexa/nexaxbold-webfont.svg#nexabold') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
 @font-face {
     font-family: 'nexa xbold italic';
     src: url('nexa/nexaxbolditalic-webfont.eot');
